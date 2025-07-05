@@ -1,0 +1,29 @@
+{
+  "name": "alpha-4.0",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sailash427/User-database#readme",
+  "bugs": {
+    "url": "https://github.com/sailash427/User-database/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sailash427/User-database.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {}
+}
